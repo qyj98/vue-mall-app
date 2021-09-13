@@ -137,7 +137,7 @@ export default {
         }, 300);
       }
     },
-    // ?聚焦就模糊搜素
+    // ?聚焦就不显示搜索列表
     onfocus() {
       this.showList = true;
     },
